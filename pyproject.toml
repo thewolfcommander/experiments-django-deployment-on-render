@@ -2,12 +2,14 @@
 name = "experiments-django-deployment-on-render"
 version = "0.1.0"
 description = ""
-authors = ["Manoj Tyag <manoj.tyagi@limechat.ai>"]
+authors = ["Manoj Tyagi <tyagimanojtyagi.22@gmail.com>"]
 readme = "README.md"
-packages = [{include = "experiments_django_deployment_on_render"}]
+packages = [{include = "project"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+django = "^4.1.6"
+djangorestframework = "^3.14.0"
 
 
 [build-system]
